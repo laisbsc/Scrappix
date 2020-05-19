@@ -6,7 +6,7 @@ Scrappix is a python application designed to help users to scrape data from webs
  - item name;
  - price;
  - available stock;
- - product image.
+ - product image. <br/>
  Those items would then be placed into a database.db file (matching the schema specified at the `db.py`). Where they could be queried and had graphs plotted from the data.
 
 ## Requirements:
@@ -23,6 +23,6 @@ Scrappix is a python application designed to help users to scrape data from webs
  4. The output from running the command should have been placed into a file with a `.db` extension to it.
  ### Output analysis / queries execution
  5. To analyse the output (and query it) go to [SQLite](https://sqliteonline.com/).
- 6. On the top left-hand side click 'File' and load the file created upon last command's execution. <br/>
+ 6. On the top left-hand side click 'File' and load the file created upon last command's execution (`filename.db`). <br/>
  You should be seeing all your scraped data on the screen now.
  7. To query your data, type the query into the textbox at the top of the page and click 'run'. SQLite generates graphs as well.
