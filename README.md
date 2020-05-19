@@ -1,14 +1,28 @@
-The use of UserAgents to bypass scraping restrictions <br>
-Every website puts restrictions on scraping practices, due to the overhead that it can bring the website's internal servers (refer back to the principles of web scraping - Law 1 is 'Do not harm the website'). <br>
+# Scrappix - an open source GUI-based web scraper
+This repo constains the source-code for the final submission of Applied Technology Group Project for the 3rd year of Information Technology.
 
-There are plenty of ways in which a user is able to scrape the data bypassing the restrictions in a friendly manner. Considering that Amazon does not forbid crawlers from scraping its data, it instead requires the UserAgent (identity of the brawser looking for data) and tried to match one of the specified on its robots.txt file (https://www.amazon.co.uk/robots.txt). If a brawser tries to scrape data in a very short interval, the website refuses and can block the browser, and the way it knows it is the same actor is by the UserAgent identification. <br>
-The work-around I chose to use was the implementation of a library called scrapy-user-agents that loops through a list of standard UserAgents commonly used on the web (all in a file with around 2200 user-agent's names collected from https://developers.whatismybrowser.com/ using https://github.com/hyan15/crawler-demo/tree/master/crawling-basic/common_user_agents. The library also allows for the possibility of inserting your own User-Agent by setting parameters at `RANDOM_UA_FILE` testing each one until the website allows for the data scraping. The list of 
- 
- 
- # Running
- > To run this app using CLI go to the top level directore (the one on the same level as the .cfg file) and run: 
- `scrapy crawl scrappix_amazon`
+## What is Scrappix?
+Scrappix is a python application designed to help users to scrape data from websites (for now only the hardcoded ecommerces) and export the extracted data to a database table hosted at [SQLite](https://sqliteonline.com/). The initial goal was to have an interactive GUI which would be deployed using Heroku and used for input of search term and the URL of the crawled website. The app would search for the keyterm on the input box (string) and fetch the following matching items on HTML:
+ - item name;
+ - price;
+ - available stock;
+ - product image. <br/>
+ Those items would then be placed into a database.db file (matching the schema specified at the `db.py`). Where they could be queried and had graphs plotted from the data.
 
-
-That will start the User-Agent matching process and scrawl the Amazon web page afterwards.
+## Requirements:
+ - Scrapy requires Python 3.5.1+ to run.
+ I am using Python 3.8.2, Scrapy 2.1.0 deployed locally on a Windows 10 (version 18363) machine using PyCharm Community Ed. 2020.1.
  
+ # Running Scrappix
+ ## From GitHub repo:
+ > To run this app from here using CLI:
+ 1. Download or clone the repo using
+ `git clone https://github.com/laisbsc/Scrappix.git` on your local machine
+ 2. At the root folder **activate your virtual environment** (conda, venv, whatever you use to run python apps) and run `pip install -r requirements.txt` to locally install all the dependencies required for the project to run.
+ 3. Go to the second level scrapix folder (the one on the same level as the scrapy.cfg file) and run `scrapy crawl crawler_name` on your terminal to execute the desired crawler.
+ 4. The output from running the command should have been placed into a file with a `.db` extension to it.
+ ### Output analysis / queries execution
+ 5. To analyse the output (and query it) go to [SQLite](https://sqliteonline.com/).
+ 6. On the top left-hand side click 'File' and load the file created upon last command's execution (`filename.db`). <br/>
+ You should be seeing all your scraped data on the screen now.
+ 7. To query your data, type the query into the textbox at the top of the page and click 'run'. SQLite generates graphs as well.
