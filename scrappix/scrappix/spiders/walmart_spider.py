@@ -2,10 +2,12 @@
 import scrapy
 from ..items import ScrappixItem
 
+"""  """
+
 
 class WalmartSpiderSpider(scrapy.Spider):
     name = 'walmart_spider'
-    # allowed_domains = ['walmart.com']
+    allowed_domains = ['walmart.com']
     page_number = 2
     search_term = 'laptops'
     start_urls = ['https://www.walmart.com/browse/electronics/all-laptop-computers/3944_3951_1089430_132960?page=' + str(page_number)]
@@ -17,11 +19,11 @@ class WalmartSpiderSpider(scrapy.Spider):
         item_name = response.css('.truncate-title span::text').extract()
         price = response.css('.price-main span::text').extract()
         image = response.css('#searchProductResult img::attr(src)').extract()
-        # stock = response.css('.a-color-price::text').extract()
+        stock = response.css('.a-color-price::text').extract()
 
         items['item_name'] = item_name
         items['price'] = price
-        # items['stock'] = stock
+        items['stock'] = stock
         items['image'] = image
 
         yield items

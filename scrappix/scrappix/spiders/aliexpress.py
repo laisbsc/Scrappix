@@ -2,7 +2,7 @@
 import scrapy
 from ..items import ScrappixItem #not sure this will be like this further on
 
-""" not currently working """
+""" not currently working due to website's policy on data scraping """
 
 class AliexpressSpider(scrapy.Spider):
     name = 'aliexpress'

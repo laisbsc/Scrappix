@@ -25,7 +25,7 @@ class ArgosScraperSpider(scrapy.Spider):
 
         yield items
 
-        next_page = 'https://www.argos.ie/webapp/wcs/stores/servlet/Search?storeId=10152&langId=111&q=LAPTOP&pp=20&s=Relevance&canned_results_trigger=%28free_text%3D%3D%28+LAPTOP%29%29&p='+str(ArgosScraperSpider.page_number*2)+'1'
+        next_page = 'https://www.argos.ie/webapp/wcs/stores/servlet/Search?storeId=10152&langId=111&q='+ArgosScraperSpider.search_term+'&pp=20&s=Relevance&canned_results_trigger=%28free_text%3D%3D%28+'+ArgosScraperSpider.search_term+'%29%29&p='+str(ArgosScraperSpider.page_number*2)+'1'
         """
         if the search haven't reached the 100th page, go to next and scrape it all again.
         """

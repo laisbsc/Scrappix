@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec402ebe-704b-4ee5-8d51-fe43d23293c6" name="Default Changelist" comment="" />
+    <list default="true" id="ec402ebe-704b-4ee5-8d51-fe43d23293c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/ali.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/ali_false.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/amazon_data.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/amazon_data.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrappix/scrappix/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrappix/scrappix/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/spiders/aliexpress.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrappix/scrappix/spiders/aliexpress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/spiders/argos_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrappix/scrappix/spiders/argos_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/spiders/scrappix_amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrappix/scrappix/spiders/scrappix_amazon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/spiders/walmart_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrappix/scrappix/spiders/walmart_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/scrappix/walmart_true.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/text.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrappix/walmart_true.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +49,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1bAnu5k0lzBRH09bO9MCxOgr0Oh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../OODesigns/CA2/trading_day_sim" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -88,7 +128,26 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2445" y="355" key="#Notifications" timestamp="1589876190901">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="2445" y="355" key="#Notifications/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1589876190901" />
     <state x="568" y="121" key="#Python" timestamp="1588084583416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -97,39 +156,63 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588089999900" />
-    <state x="2360" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589462367142">
-      <screen x="1920" y="0" width="1280" height="984" />
-    </state>
-    <state x="528" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588792106310" />
-    <state x="2360" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1589462367142" />
-    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1589640956122">
+    <state x="528" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589890895422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589640956122" />
+    <state x="528" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589890895422" />
+    <state x="2360" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1589881729108" />
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1589897659816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589897659816" />
     <state x="2377" y="184" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1588946026064" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1588963978032">
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1589896510732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588745903562" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
+    <state width="1259" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1589876793546" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588963978032" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1588963978032">
+    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1589896510732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588745903561" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
+    <state width="1259" height="262" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1589876793546" />
     <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588963978032" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1588963978032">
+    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1589896510732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588745903560" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
+    <state width="1259" height="262" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1589876793546" />
     <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588963978032" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1588963978032">
+    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1589896510732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588745903562" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
+    <state width="1259" height="262" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@1920.0.1280.984" timestamp="1589876793546" />
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588963978032" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1589896510732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1589896510732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1589896510732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1589896510732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589896510732" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1588095770401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588095770401" />
+    <state x="305" y="0" width="1245" height="810" key="dock-window-1" timestamp="1589899389971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="0" width="1245" height="810" key="dock-window-1/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1589899389971" />
   </component>
 </project>
